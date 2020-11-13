@@ -3,9 +3,9 @@
     <v-card class="mb-2" color="#434247" dark >
       <v-row >
         <v-col class="d-flex" xl="12" lg="12" md="12" sm="12" cols="12">
+          <img  class="ma-1" src="https://www.flaticon.com/svg/static/icons/svg/2942/2942322.svg" width="50" height="50" alt="">
           <h2 class="ma-2">
-            <v-icon large class="mb-2">mdi-file-account-outline</v-icon>
-            Report User [ Production ]
+             User [ Production ]
           </h2>
           <v-spacer></v-spacer>
           <v-spacer></v-spacer>
@@ -77,7 +77,7 @@
   
 
   <v-row >
-  
+
   <v-col xl="6" lg="6" md="6" sm="12" cols="12">
     <v-card class="mb-2" >
         <!-- <v-btn class="success mt-2 ml-2" @click="fillData()"><v-icon>mdi-refresh</v-icon></v-btn> -->
@@ -501,7 +501,7 @@ export default {
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
           datasets: [
             {
-              label: '2020',
+              label: '',
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#249EBF',

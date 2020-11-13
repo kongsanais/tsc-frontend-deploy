@@ -1,5 +1,5 @@
 <template>
-  <v-card v-ripple class="mx-auto" max-width="344" outlined>
+  <v-card v-ripple class="mx-auto" max-width="500" outlined>
     <v-list-item two-line>
       <v-list-item-content>
         <v-list-item-title class="headline mb-1">{{ title }}</v-list-item-title>
@@ -9,7 +9,7 @@
         }}</v-list-item-subtitle>
 
       </v-list-item-content>
-              <img :src="avatar_ic" width="50px" height="50px" alt="">
+              <img :src="avatar_ic" width="60px" height="60px" alt="">
 
     </v-list-item>
   </v-card>
